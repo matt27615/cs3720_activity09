@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: cs3720-activity08-echo
+    name: cs3720-activity09-echo
     runtime: python
     plan: free
       pip install --upgrade pip
@@ -14,7 +14,7 @@ services:
     healthCheckPath: /
 
   - type: web
-    name: cs3720-activity08-chat
+    name: cs3720-activity09-chat
     runtime: python
     plan: free
     buildCommand: 
